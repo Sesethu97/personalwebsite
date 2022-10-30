@@ -1,0 +1,48 @@
+.intro{
+    background-color: blueviolet;
+    display: flex;
+}
+.left{
+    flex: 0.5;
+    background-color: pink;
+
+}
+.right{
+    flex: 0.5;
+
+
+}
+.display-img{
+    padding-top: 3%;
+    padding-left: 100px;
+    width: 50%;
+    height: 90%;
+    object-fit: cover; 
+    position: relative;
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.right-clipA{    
+    padding-right: 400px;
+    top: -70px;
+    width: 35%;
+    height: 55%;
+    clip-path: polygon(25% 15.25%, 75% 15.25%, 75% 75%, 25% 75%);
+    background-color: #000000;
+    position: absolute;
+    
+}
+
+.right-clipB{
+    bottom: -85px;
+    padding-left: 60px;
+    width: 35%;
+    height: 80%;
+    clip-path: polygon(25% 15.25%, 75% 15.25%, 75% 75%, 25% 75%);
+    background-color: blue;
+    position: absolute;
+    
+}
