@@ -4,7 +4,7 @@
 .sections{
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: orangered;
+    /* background-color: orangered; */
     position: relative;
     top: 70px;
     scroll-behavior: smooth;
@@ -15,4 +15,14 @@
     width: 100%;
     height: calc(100vh - 70px);
 
+}
+
+.intro, .education, .projects, .contacts{
+    background-color: #764d80;
+    background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+
+}
+.about, .skills, .sovtech{
+    background-color: #690d80;
+    background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
 }

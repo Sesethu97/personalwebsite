@@ -1,10 +1,10 @@
 .intro{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
 }
 .left{
     flex: 0.5;
-    background-color: pink;
+    /* background-color: pink; */
 
 }
 .right{
@@ -13,8 +13,8 @@
 
 }
 .display-img{
-    padding-top: 3%;
-    padding-left: 100px;
+    padding: 7%;
+    padding-left: 106px;
     width: 50%;
     height: 90%;
     object-fit: cover; 
@@ -26,8 +26,8 @@
 
 }
 .right-clipA{    
-    padding-right: 400px;
-    top: -70px;
+    padding-left: 400px;
+    top: -40px;
     width: 35%;
     height: 55%;
     clip-path: polygon(25% 15.25%, 75% 15.25%, 75% 75%, 25% 75%);
@@ -37,12 +37,60 @@
 }
 
 .right-clipB{
-    bottom: -85px;
-    padding-left: 60px;
+    top: 220px;
+    padding-right: 70px;
     width: 35%;
     height: 80%;
     clip-path: polygon(25% 15.25%, 75% 15.25%, 75% 75%, 25% 75%);
     background-color: blue;
     position: absolute;
     
+}
+p{
+    right: 110px;
+    bottom: 80px;
+    position:relative; 
+    
+}
+h2{
+    display: flex;
+    font-size: 30px;
+    
+
+}
+
+h3{
+    display: flex;
+    font-size: 35px;
+}
+
+h4{
+    display: flex;
+    font-size: 30px;
+    padding-left: 40px;
+
+}
+span{
+    margin-left: 6px;
+}
+.ityped-cursor {
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+      }
+  }
+
+
+
+
+@keyframes arrowBlink {
+  100% {
+    opacity: 0;
+  }
 }

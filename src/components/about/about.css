@@ -1,3 +1,64 @@
 .about{
-    background-color: aqua;
+    display: flex;
+    flex: 1,
+    
+    /* background-color: aqua; */
+}
+h5{
+    font-size: 20px;
+}
+.lefts{
+    display: flex;
+
+}
+.card-passage{
+
+    font-size: 30px;
+
+}
+.flex-container {
+    display: flex;    
+}
+  
+.flex-container > div {
+    margin: 10px;
+    margin-right: 30px;
+    padding: 20px;
+    font-size: 10px;
+
+}
+
+
+.rights{
+    display: flex;
+    width: 70%;
+
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-dis{
+    padding: 7%;
+    width: 70%;
+    height: 90%;
+    object-fit: cover; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
+.flex-img, .img-dis{
+    padding: 40px;
+    width: 80%; 
+    transition: transform .2s;
+}
+/* .img-dis:hover{
+    transform: scale(1.5); 
+} */
+.paragraph{
+    font-size: 15px;
 }
