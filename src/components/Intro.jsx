@@ -15,7 +15,7 @@ const Intro = () => {
           <h2 className="text-4xl text-pico">Hi There, I'm</h2>
           <h3 className="text-5xl text-pink-600">Sesethu Luzipo</h3>
 
-          <h4>Web Developer | App Developer | DevOps Developer</h4>
+          <h4 className="text-zinc-500">Web Developer | App Developer | DevOps Developer</h4>
         </div>
       </div>
     </div>

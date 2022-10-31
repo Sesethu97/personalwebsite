@@ -12,19 +12,27 @@ const Projects = () => {
             Blog
           </h1>
           <p className="text-black text-l font-taviraj font-bold leading-loose">
-            Progress: Done
+            <p>Progress: Done </p>
+            <p>Info: It makes use of the DJango Framework, the user is able to log in and post images that they want. It is more of an online album Blog, no one can comment on a post.</p>
           </p>
           <p>
-            <a href="https://github.com/Sesethu97/Blogging" className= "text-sm italic" >click here </a>
+            <a href="https://github.com/Sesethu97/Blogging" className= "text-sm italic" > <span class="material-icons">
+ads_click
+</span> </a>
           </p>
         </div>
         <div className="text-black h-1/2 bg-pico mx-10 rounded-xl shadow-black shadow-2xl p-10">
           <h1 className="text-black text-2xl font-taviraj font-bold">YearBook</h1>
           <p className="text-black text-l font-taviraj font-bold leading-loose">
-            Progress: At the initital stages
+            <p>Progress: At the initital stages</p>
+            <p>Info: I am going to continue with Django.The main is to produce a website where the user can edit their profile's background
+            and hopefully be able to vote for the certain categories such as  "most likely to succeed" 
+            </p>
           </p>
           <p>
-            <a href="https://github.com/Sesethu97/photoalbum" className= "text-sm italic" >click here </a>
+            <a href="https://github.com/Sesethu97/photoalbum" className= "text-sm italic" > <span class="material-icons">
+ads_click
+</span> </a>
           </p>
         </div>
         ~
