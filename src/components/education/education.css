@@ -1,3 +1,97 @@
-.education{
-    background-color: grey;
+.education {
+  display: flex;
+  height: 100vh;
+  box-shadow: 10px 4px 10px 10px #888888;
+
+}
+
+.leftCurrent{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+
+}
+.rightCurrent{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+
+}
+h12{
+  display: flex;
+  font-size: 35px;
+  font-family: "Yeseva One";
+  margin-left: 10px;
+  margin-bottom: 20px;
+
+  
+}
+.bookInfo-header{
+  
+  display: flex;
+  background-color: #404040;
+  width: 100%;
+  height: 60px;
+
+
+}
+.bookInfo{
+  display: flex;
+  align-items: column;
+  background-color: yellowgreen;
+  width: 100%;
+}
+.WTC{
+  display: flex;
+  flex: 1;
+  bottom: 50%;
+  align-content: center;
+  align-items: center;
+  
+
+}
+.CPUT{
+  display: flex;
+  flex: 1;
+  bottom: 50%;
+  align-content: center;
+  align-items: center;
+  
+
+}
+
+
+h6 {
+  display: flex;
+  
+  font-size: 35px;
+  font-family: 'Yeseva One';
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.ul {
+  list-style-type: circle;
+}
+
+
+.schoolInfo{
+  font-family: 'Taviraj';
+  font-size: 25px;
+}
+@media screen and (max-width: 480px) {
+  .p {
+    width: 40%;
+    height: 20vh;
+  }
+  .WTC {
+    width: 50%;
+  }
+
+  .CPUT {
+    width: 50%;
+  }
 }

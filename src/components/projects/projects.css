@@ -1,3 +1,59 @@
-.projects{
-    background-color: brown;
+.projects {
+  display: flex;
+  height: 100vh;
+  box-shadow: 10px 4px 10px 10px #888888;
+
+}
+.projectsDone{
+    
+  display: flex;
+  background-color: #404040;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.project-desc{
+  display: flex;
+  margin-top: -70px;
+  margin-right: 50px;
+}
+.project-msg{
+  display: flex;
+  font-size: 25px;
+  margin-left: 35%;
+  position: relative;  
+
+}
+.progess {
+  font-size: 15px;
+}
+h8 {
+  font-size: 35px;
+}
+h9{
+  font-size: 35px;
+
+
+}
+h14{
+  margin-top: -170px;
+  font-size: 35px;
+  font-family: "Yeseva One";
+  margin-left: 65px;
+
+}
+
+.links{
+  color: black;
+}
+@media screen and (max-width: 480px) {
+  .projects {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .progess {
+    display: flex;
+  }
 }

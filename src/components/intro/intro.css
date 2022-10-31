@@ -1,6 +1,6 @@
 .intro{
-    /* background-color: blueviolet; */
     display: flex;
+    height: 100vh;
 }
 .left{
     flex: 0.5;
@@ -25,27 +25,7 @@
     align-items: flex-end;
 
 }
-.right-clipA{    
-    padding-left: 400px;
-    top: -40px;
-    width: 35%;
-    height: 55%;
-    clip-path: polygon(25% 15.25%, 75% 15.25%, 75% 75%, 25% 75%);
-    background-color: #000000;
-    position: absolute;
-    
-}
 
-.right-clipB{
-    top: 220px;
-    padding-right: 70px;
-    width: 35%;
-    height: 80%;
-    clip-path: polygon(25% 15.25%, 75% 15.25%, 75% 75%, 25% 75%);
-    background-color: blue;
-    position: absolute;
-    
-}
 p{
     right: 110px;
     bottom: 80px;
@@ -94,3 +74,23 @@ span{
     opacity: 0;
   }
 }
+@media screen and (max-width: 480px) {
+    .intro {
+      flex-direction: column;
+    }
+  
+    .left {
+    
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
+  
+    .intro-descr{
+      display: none;
+    }
+    
+}
+  

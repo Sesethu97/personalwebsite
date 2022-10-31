@@ -1,3 +1,56 @@
-.contacts{
-    background-color: blue;
+.contacts {
+  display: flex;
+  height: 50vh;
+  box-shadow: 10px 4px 10px 10px #888888;
+
+
+}
+.breakdown{
+  width: 100vw;
+  display: flex;
+  background-color: #404040;
+  width: 100%;
+
+}
+h18{
+  font-size: 35px;
+  font-family: 'Yeseva One';
+}
+.c-info{
+
+  margin-left: 50px;
+
+}
+.contactCo{
+  margin-top: 40px;
+  margin-left: 35%;
+  width: 550px;
+  height: 200px;
+
+
+}
+.c-details{
+  margin-top: 15px;
+  font-size: 35px;
+  font-family: "Yeseva One";
+  margin-left: 65px;
+
+
+}
+@media screen and (max-width: 480px) {
+  .breakdown {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-details {
+    font-size: 30px;
+  }
+
+  .c-info {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  
 }
