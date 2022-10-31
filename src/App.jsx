@@ -1,12 +1,10 @@
 import About from "./components/About";
 import Education from "./components/Education";
-import Intro from "./components/Intro";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Sovtech from "./components/Sovtech";
 import Contacts from "./components/Contacts";
-
-
+import Intro from "./components/Intro";
 
 const App = () => {
   return (
@@ -14,10 +12,10 @@ const App = () => {
       <Intro />
       <About />
       <Education />
-      <Skills/> 
+      <Skills />
       <Projects />
-      <Sovtech/>
-      <Contacts/>
+      <Sovtech />
+      <Contacts />
     </>
   );
 };
