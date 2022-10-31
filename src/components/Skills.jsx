@@ -1,21 +1,18 @@
 const Skills = () => {
   return (
-    <div class="px-24 py-20 bg-black">
-      <div class="text-center">
-        <h1 class="text-4xl bg-black text-pico font-yeseva font-bold leading-loose">
+    <div className="px-24 py-20 bg-neutral-800" id="skills">
+      <div className="text-center">
+        <h1 className="text-4xl bg-neutral-800 text-pico font-yeseva font-bold leading-loose">
           Skills
         </h1>
       </div>
-      <div class="px-24 py-20 bg-black">
-        <ul class="h-1/2 text-pico mx-10 font-bold text-xl p-10 text-center">
-          <li>Python</li>
-          <li>Java</li>
-          <li>Javascript</li>
-          <li>Bootstrap &amp; Tailwind</li>
-          <li>CSS &amp; html</li>
-          <li>Django &amp; Flask</li>
-          <li>Data Management</li>
-          <li>Leadership &amp; Management</li>
+      <div className="px-24 py-20 bg-neutral-800">
+        <ul className="h-1/2 text-pico mx-10 font-bold text-xl p-10 text-center">
+          <li>Promgramming Skills</li>
+          <li>Web & Research</li>
+          <li>Microsoft</li>
+          <li>Productivity &Leadership</li>
+          <li>Data Management &TimeManagement</li>
         </ul>
       </div>
     </div>

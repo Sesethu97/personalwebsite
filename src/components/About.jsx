@@ -1,11 +1,12 @@
 import image from "../images/me/me.jpg";
+import ".."
 
 const About = () => {
   return (
-    <div className="flex px-24 py-24 bg-black">
+    <div className="flex px-24 py-24 bg-black" id="about">
       <div className="h-1/2 bg-pico rounded-xl shadow-pink-400 shadow-2xl p-10 mt-20">
         <h1 className="font-bold text-4xl font-yeseva-one leading-loose">
-          About me
+          About me 
         </h1>
         <p className="font-bold text-base mb-4 font-taviraj text-black">
           I am Sesethu Luzipo a last year WeThinkCode_ student that was born and

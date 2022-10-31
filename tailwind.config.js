@@ -8,12 +8,16 @@ module.exports = {
       fontFamily: {
         "yeseva-one": ['"Yeseva One"', "san-serif"],
         "taviraj" : ['"Taviraj"', "san-serif"],
+        "good-vibes" : ['"Good Vibes"', "san-serif"],
       },
 
       colors: {
         pico: "#fd79a8",
       },
+     
+      
+      
     },
   },
-  plugins: [],
+  plugins: ['tailwind-clip-path'],
 };

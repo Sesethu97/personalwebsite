@@ -1,12 +1,12 @@
 const Sovtech = () => {
   return (
-    <div class="px-24 py-20 bg-black">
-      <div class="flex justify-center">
-        <div class="h-1/2 bg-black mx-10 rounded-xl shadow-black shadow-2xl p-10">
-          <h1 class="text-pico text-center text-4xl font-yeseva font-bold  leading-loose">
+    <div className="px-24 py-20 bg-neutral-800" id="sovtech">
+      <div className="flex justify-center">
+        <div className="h-1/2 bg-neutral-800 mx-10 rounded-xl shadow-neutral-800 shadow-2xl p-10">
+          <h1 className="text-pico text-center text-4xl font-yeseva font-bold  leading-loose">
             Why SovTech?
           </h1>
-          <p class="text-pico text-l font-taviraj font-bold">
+          <p className="text-pico text-l font-taviraj font-bold">
             The reason behind my descision of wanting to join Sovtech is based
             on several factors. It encompasses several values that I believe in,
             that alone makes me feel like Sovtech is company that will help me
