@@ -14,53 +14,48 @@ const Navbar = () => {
           <a
             title="SL"
             href="#intro"
-            className="nav-link text-2xl mx-5 font-bold border-white"
+            className="nav-link scroll-smooth text-2xl mx-5 font-bold border-white"
           >
             Intro
           </a>
           <a
             href="#about"
-            className="nav-link text-2xl mx-5 font-bold border-white"
+            className="nav-link  scroll-smooth text-2xl mx-5 font-bold border-white"
           >
             About
           </a>
           <a
             href="#education"
-            className="nav-link text-2xl mx-5 font-bold border-white"
+            className="nav-link scroll-smooth text-2xl mx-5 font-bold border-white"
           >
             Education
           </a>
           <a
             href="#skills"
-            className="nav-link text-2xl mx-5 font-bold border-white"
+            className="nav-link scroll-smooth text-2xl mx-5 font-bold border-white"
           >
             Skills
           </a>
           <a
             href="#projects"
-            className="nav-link text-2xl mx-5 font-bold border-white"
+            className="nav-link scroll-smooth text-2xl mx-5 font-bold border-white"
           >
             Projects
           </a>
           <a
             href="#sovtech"
-            className="nav-link text-2xl mx-5 font-bold border-white"
+            className="nav-link scroll-smooth text-2xl mx-5 font-bold border-white"
           >
             Sovtech
           </a>
-        </div>
-        <div className="flex flex-row">
-          <h6 className="text-colour text-3xl ml-3 mr-7 font-bold">
           <a
             href="#contacts"
-            className="nav-link text-2xl mx-5 font-bold border-white"
+            className="nav-link scroll-smooth text-2xl mx-5 font-bold border-white"
           >
             Contacts
           </a>
-            
-          </h6> 
-        
         </div>
+        
       </div>
     </div>
   );
