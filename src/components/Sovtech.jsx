@@ -7,7 +7,7 @@ const Sovtech = () => {
             Why SovTech?
           </h1>
           <p className="text-pico text-l font-taviraj font-bold">
-            The reason behind my descision of wanting to join Sovtech is based
+            The reason behind my decision of wanting to join Sovtech is based
             on several factors. It encompasses several values that I believe in,
             that alone makes me feel like Sovtech is company that will help me
             grow my tech skills. Being a new developer, is quite scary, being in

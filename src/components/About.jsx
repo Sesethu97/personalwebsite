@@ -14,13 +14,13 @@ const About = () => {
           is aspring to become an aspring to be a Fullstack Developer one day.
         </p>
         <p className="font-bold text-base mb-4 font-taviraj text-black">
-          From an Oceanography background to studying lines of code to produce
+          From an Oceanography background to studying lines of code that produce
           projects that are mindblowing was been a rollercoaster that I am quite
           greatful for.
         </p>
         <p className="font-bold text-base mb-4 font-taviraj text-black">
           The pressure of slowing learning to debug code and to build creative
-          products has enhanced my creative mind and problem solving skillis.
+          products has enhanced my creative mind and problem solving skills.
         </p>
         <p className="font-bold text-base mb-4 font-taviraj text-black">
           Teachnology has become the cornerstone of the world and the pressure

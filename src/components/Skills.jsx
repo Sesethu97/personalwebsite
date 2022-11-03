@@ -11,8 +11,8 @@ const Skills = () => {
           <li>Promgramming Skills</li>
           <li>Web & Research</li>
           <li>Microsoft</li>
-          <li>Productivity &Leadership</li>
-          <li>Data Management &TimeManagement</li>
+          <li>Productivity & Leadership</li>
+          <li>Data Management & TimeManagement</li>
         </ul>
       </div>
     </div>

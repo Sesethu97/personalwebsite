@@ -13,7 +13,7 @@ const Projects = () => {
           </h1>
           <p className="text-black text-l font-taviraj font-bold leading-loose">
             <p>Progress: Done </p>
-            <p>Info: It makes use of the DJango Framework, the user is able to log in and post images that they want. It is more of an online album Blog, no one can comment on a post.</p>
+            <p>Info: It makes use of the DJango Framework, the user is able to log in and post images that they want. It is more of an online album blog, no one can comment on any post though.</p>
           </p>
           <p>
             <a href="https://github.com/Sesethu97/Blogging" className= "text-sm italic" > <span class="material-icons">

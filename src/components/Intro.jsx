@@ -16,6 +16,10 @@ const Intro = () => {
           <h3 className="text-5xl text-pink-600">Sesethu Luzipo</h3>
 
           <h4 className="text-zinc-500">Web Developer | App Developer | DevOps Developer</h4>
+          <div className="lineA"></div>
+          <div className="lineB"></div>
+          <div className="lineC"></div>
+
         </div>
       </div>
     </div>
